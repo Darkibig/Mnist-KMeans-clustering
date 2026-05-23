@@ -25,18 +25,21 @@
 
 ## Как запустить проект локально
 
-1. Клонируйте репозиторий:
    ```bash
+   # 1. Клонируйте репозиторий
    git clone [https://github.com/Darkibig/Mnist-KMeans-clustering.git](https://github.com/Darkibig/Mnist-KMeans-clustering.git)
 
-2. Создайте и активируйте виртуальное окружение:
+   # 2. Создайте виртуальное окружение
+   python -m venv venv
 
-python -m venv venv
-source venv/bin/activate  # Для Linux/macOS
-# или venv\Scripts\activate  # Для Windows
+   # 3. Активируйте виртуальное окружение
+   # Для Windows:
+   venv\Scripts\activate
+   # Для Linux / macOS:
+   source venv/bin/activate
 
-3. Установите зависимости:
+   # 4. Установите зависимости
+   pip install -r requirements.txt
 
-pip install -r requirements.txt
-
-4. Откройте Jupyter Notebook mnist_clustering.ipynb и запустите ячейки.
+   # 5. Запустите Jupyter Notebook
+   # Откройте файл mnist_clustering.ipynb и запустите ячейки
