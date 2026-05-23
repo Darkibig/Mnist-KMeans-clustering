@@ -1,0 +1,18 @@
+# Virtual envirenment
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Jyputer Notebook Checkpoints
+.ipynb_checkponts/
+
+# VS Code settings files
+.vscode/
+.idea/
+
+# ignore csv
+*.csv
